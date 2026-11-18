@@ -1,36 +1,60 @@
-# PocketPuzzle
+# Handheld Digital Companion
 
-**WIP — A handheld puzzle game built with ESP32-S3.**
+A compact, circular handheld electronic device combining mechanical interaction, a miniature holographic visual effect, and interactive digital experiences.
 
-PocketPuzzle is a personal hardware-software project focused on building a portable puzzle gaming device from scratch.
+The project explores the intersection of embedded systems, mechanical design, optical illusions, and software development.
 
-The project combines embedded programming, electronics, game development, and 3D mechanical design.
+## Concept
 
-## Planned Hardware
+The device features a rotating circular display and an experimental folding Pepper's Ghost module designed to create the illusion of floating digital content.
 
-- ESP32-S3 Mini
-- 1.28" Round LCD (240×240)
-- EC11 Rotary Encoder
-- Physical buttons and switches
+The goal is to create a small personal digital companion that is both functional and enjoyable to interact with.
 
-## Development
+## Planned Features
 
-Currently in the early prototyping stage.
+- **Rotating Display:** A 1.28-inch circular LCD mounted on a 180-degree rotating mechanism.
+- **Mini Hologram:** A folding optical module using the Pepper's Ghost effect.
+- **Digital Companion:** Animated characters and interactive visual elements.
+- **Mini Games:** Small games designed around the device's display and physical controls.
+- **Music Mode:** Smartphone media information and playback controls through Bluetooth Low Energy.
+- **Expandable Interface:** Additional modes and interactions as development progresses.
 
-- [x] Hardware component selection
-- [ ] Display initialization
-- [ ] Input handling
-- [ ] First playable puzzle
-- [ ] 3D enclosure design
-- [ ] Portable standalone device
+## Hardware
 
-## Technologies
+| Component | Purpose |
+|---|---|
+| ESP32-S3 | Main controller |
+| 1.28-inch Circular LCD | Display |
+| Rotary Encoder | Navigation and interaction |
+| Push Buttons | Physical controls |
+| Rechargeable Battery | Portable power |
 
-- C/C++
-- ESP32-S3
-- Embedded Systems
-- 3D CAD Design
+Additional components and hardware specifications are subject to change during prototyping.
 
----
+## Mechanical Design
 
-*This project is being developed as a personal learning and engineering project.*
+The current industrial design concept includes:
+
+- Approximately 65 mm circular enclosure
+- 180-degree rotating display module
+- Folding transparent holographic reflector
+- Modular mechanical components
+
+The enclosure is initially planned for 3D-printed prototyping. Final material selection, including engineering plastics or aluminum, remains open.
+
+## Development Status
+
+<badge>Work in Progress</badge>
+
+Currently in the concept development and prototyping preparation stage.
+
+The mechanical design, optical system, and electronic architecture are being explored and validated incrementally.
+
+## Documentation
+
+- [Design Document](docs/design-document.md) — Project concept, mechanical design, hardware, planned features, and development roadmap.
+- [Initial Concept Sketches](assets/design/v0-concept/) — Early design explorations and sketches.
+
+## Note
+
+This is an experimental personal hardware project. Features and specifications may change as development progresses.
