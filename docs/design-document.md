@@ -316,3 +316,8 @@ The final enclosure material and advanced features will remain flexible until th
 **Project Status:** Early concept and prototyping preparation.
 
 **Design Philosophy:** Build a distinctive physical experience first, then expand its digital capabilities through modular hardware and software.
+
+## Design References
+
+- [V0 — Initial Concept](../assets/design/v0-concept/)
+- [V1 — Prototype Concept](../assets/design/v1-concept/)
