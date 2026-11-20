@@ -53,7 +53,7 @@ The mechanical design, optical system, and electronic architecture are being exp
 ## Documentation
 
 - [Design Document](docs/design-document.md) — Project concept, mechanical design, hardware, planned features, and development roadmap.
-- [Initial Concept Sketches](assets/design/v0-concept/) — Early design explorations and sketches.
+- [Initial Concept Sketches](assets/design) — Early design explorations and sketches.
 
 ## Note
 
